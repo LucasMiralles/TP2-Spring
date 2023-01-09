@@ -1,0 +1,9 @@
+.idea/
+nbproject/
+*.iml
+target/
+.settings/
+.classpath
+.factorypath
+.project
+*.bak
