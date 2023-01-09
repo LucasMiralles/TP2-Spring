@@ -7,4 +7,5 @@ INSERT INTO Country(code, name) VALUES
 INSERT INTO City(name, population, country_id) VALUES
     ('Paris', 12, SELECT id FROM Country WHERE code = 'FR'), -- Les clés sont auto-générées
     ('Londres', 10, SELECT id FROM Country WHERE code = 'UK'),
-    ('Dallas', 5, SELECT id FROM Country WHERE code = 'US');
+    ('Dallas', 5, SELECT id FROM Country WHERE code = 'US'),
+    ('Toulouse', 8, SELECT id FROM Country WHERE code = 'FR');

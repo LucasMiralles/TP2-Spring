@@ -27,5 +27,6 @@ public class Country {
     @OneToMany(mappedBy="country")
     // Essayer sans "mappedBy" pour voir le schémma relationnel généré
     // @OneToMany
+    @ToString.Exclude
     private List<City> cities = new ArrayList<>();
 }
